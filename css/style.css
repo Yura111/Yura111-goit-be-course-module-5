@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.navigation {
+    width: 1110px;
+    margin: 0 auto;
+  
+}
+.slider_title,
+.slider_paragraph {
+  width: 1110px;
+  margin: 0 auto;
+  color: #fff;
+}
+.logotype {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 32px;
+  color: #555252;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+}
+.logotype::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.navigation {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.navigation-list{
+    float: right;
+    text-transform: uppercase;   
+    padding: 9px 0 0 0;  } 
+  
+.navigation-item{
+    float: left;
+    padding: 0;
+  margin: 0;
+  }
+  .navigation-item:not(:last-child){
+    margin-right:30px; 
+  }
+  .navigation-item{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;   
+    font-size: 14px;
+    font-weight: 11px;
+    letter-spacing: -0.6px;
+  }
+  .navigation-link{
+    color:#0f0101;     
+  }
+  .navigation-link:hover  { 
+  color: #1abc9c;
+} 
+.slider {
+    position: relative;}            
+
+.slider_img::before{    
+        position: absolute;       
+        width: 100%;       
+        height: 100%;       
+        top: 0;       
+        left: 0;       
+        content: '';       
+        background-color: rgba(0, 0, 0, 0.52);     
+     
+}
+.slider_block{   
+        width: 1110px;       
+        position: absolute;      
+        top: 50%;       
+        left: 50%;       
+        transform: translate(-50%, -50%);    
+      
+}
+.img_item{
+    width: 100%; 
+    height: auto;    
+    display: block; 
+}
+.pointer{
+    position: absolute; 
+    display: inline-block;   
+    border: none;   
+    width: 104px;   
+    height: 104px;   
+    background-color: rgba(26, 188, 156, 0.65);   
+    background-size: 80%;   
+    background-repeat: no-repeat;   
+    background-position: 50% 50%;  
+    cursor: pointer;   
+    outline: none;   
+    top: 50%;   
+    transform: translateY(-50%); 
+}
+
+.pointer{
+    border: none;
+    background-color: rgb(78, 198, 171)
+}
+.light{
+   background-image: url(/img/icon/angle-left.svg);
+}
+
+  
+          
+      
+
+
+
+ 
+  
+  
+
