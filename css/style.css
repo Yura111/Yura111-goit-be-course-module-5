@@ -143,10 +143,68 @@ a {
     border: none;
     background-color: rgb(78, 198, 171)
 }
-.light{
-   background-image: url(/img/icon/angle-left.svg);
+.left{
+   background-image: url(/img/icon/left.svg);
+   left: 0; 
 }
-
+.right{
+background-image: url(/img/icon/right.svg);
+right: 0; 
+}
+.slider_cont{
+    width: 770px;
+    position: absolute;   
+    top: -20px;   
+    left: 50%;   
+    transform: translate(-50%, -50%); 
+}
+.slider_title{
+    font-size: 60px; 
+  font-weight: 900; 
+  color: #fff;
+  margin-bottom: 34px;
+}
+.slider_paragraph{
+    color: #fff; 
+    font-size: 24px; 
+}
+.NEW_COLLECTION{
+    padding-top: 100px;
+    padding-bottom: 100px;  
+    text-align: center;  
+    background-color: #e9f0fd; 
+      }
+  .Collection_header{
+    text-transform: uppercase; 
+    font-size: 48px;  
+    font-weight: 900;   
+    color: #515151; 
+  }    
+  .Collection_header:after { 
+    content: '';   
+    display: block;   
+    margin: 32px auto 80px;   
+    width: 163px;   
+    height: 7px;   
+    background-color: #1abc9c; 
+    } 
+  .production{
+    padding: 0;
+    margin: 0;   
+    list-style: none;  
+    color: #fff; 
+  }
+  .img_production{
+    float: left; 
+    width: 255px;   
+    font-size: 18px;  
+    text-transform: uppercase;  
+    font-weight: 900;   
+    position: relative; 
+  }
+  .img_production:not(:last-child) { 
+    margin-right: 30px;   
+  } 
   
           
       
