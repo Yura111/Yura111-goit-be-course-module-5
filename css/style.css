@@ -142,11 +142,11 @@ a {
   background-color: rgb(78, 198, 171);
 }
 .left {
-  background-image: url(/img/icon/left.svg);
+  background-image: url(../img/icon/left.svg);
   left: 0;
 }
 .right {
-  background-image: url(/img/icon/right.svg);
+  background-image: url(../img/icon/right.svg);
   right: 0;
 }
 .slider_cont {
@@ -286,16 +286,16 @@ a {
   margin-right: 30px;
 }
 .like {
-  background-image: url(/img/icon/like.svg);
+  background-image: url(../img/icon/like.svg);
 }
 .moving {
-  background-image: url(/img/icon/shuffle.png);
+  background-image: url(../img/icon/shuffle.png);
 }
 .clock {
-  background-image: url(/img/icon/clock.svg);
+  background-image: url(../img/icon/clock.svg);
 }
 .cart {
-  background-image: url(/img/icon/cart.svg);
+  background-image: url(../img/icon/cart.svg);
   background-position: 10% 50%;
 }
 footer {
